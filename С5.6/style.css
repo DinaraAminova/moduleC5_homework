@@ -1,0 +1,49 @@
+.result {
+  display: flex;
+  margin-left: 10px;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.card {
+  width: 200px;
+  margin: 20px;
+}
+
+.card-image {
+  display: block;
+  width: 200px;
+  height: 150px;
+}
+
+.btn {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+
+  margin: 5px 10px;
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: rgb(10, 9, 9);
+  background: #1adcea;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+  transform: scale(1.05);
+}
+
+.input1, .input2 {
+  margin: 5px 10px;
+  padding: 10px 15px;
+  font-size: 12px;
+  font-weight: bold;
+}
